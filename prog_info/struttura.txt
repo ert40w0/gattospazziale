@@ -1,0 +1,28 @@
+Struttura del Progetto E-commerce/Banca
+
+Root Directory: xampp/htdocs/
+
+├── e-commerce/  # Sito e-commerce principale
+│   ├── dettaglio_moto.php  # Pagina dettaglio moto
+│   ├── connessione.php # File di connessione al database e-commerce
+│   ├── dashboard.php  # Pagina principale dell'e-commerce
+│   ├── index.php
+│   ├── login.php  # Pagina di login utenti e-commerce
+│   ├── ordini.php
+│   ├── profilo.php
+│   ├── register.php # Pagina di registrazione utenti e-commerce
+│   └── ...          # Altri file esistenti (es: CSS, immagini, ecc.)
+│
+└── prog_info/   # Sistema bancario
+    ├── pagamenti/  # Cartella dedicata ai pagamenti
+    │   ├── login_pagamento.php  # Login dedicato al pagamento
+    │   └── processa_pagamento.php  # Elaborazione del pagamento
+    │
+    ├── conti.php
+    ├── dashboard.php  # Dashboard bancaria
+    ├── index.php
+    ├── login.php  # Pagina di login bancario principale
+    ├── register.php # Pagina di registrazione bancaria
+    ├── transazioni.php
+    ├── connessione.php #connesione banca
+    └── ...          # Altri file bancari
